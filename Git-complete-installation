@@ -1,0 +1,108 @@
+install git
+sudo apt get install git -y
+
+check git version
+
+git --version
+
+setup github account
+
+create repo in github after signup
+
+got to terminal
+
+congfigure your username and email (used in github account)
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+
+verify
+
+git config --list
+
+list all files in git
+
+ls -al
+
+check the file .gitconfig
+
+gedit .gitconfig
+
+create a directory in your home directory 
+
+pwd
+
+mkdir Git-workspace
+
+select the directory
+
+cd Git-workspace
+
+clone the repos you created in your github account
+
+git clone repo url
+
+it will ask for username and pass if the repo is private
+
+if the repo is private then you have to generate access token and use it as password 
+
+
+run command 
+
+ls
+
+cd repo name
+
+create a file 
+
+touch bee.txt
+
+run commnad
+
+ls
+
+run command
+
+gedit bee.txt
+
+write any text
+
+save it and close the file
+
+noe run coommand
+
+git status
+
+it will show the file that is not staged
+
+run command 
+
+git add bee.txt
+
+the file will be added to staged environment
+
+run command to verify
+
+git status
+
+commit the file
+
+run command
+
+git commit bee.txt
+
+add the remote repo before pushing the file
+
+git add remote origin (repo url)
+
+or
+
+run command to verify the remote repos
+
+git remote -v 
+
+if the repo is not there then 
+
+Run the git remote set-url --add --push origin git-repository-name command where git-repository-name is the URL and name of the Git repository where you want to host your code. This changes the push destination of origin to that Git repository.
+
+
