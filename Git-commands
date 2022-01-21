@@ -1,7 +1,6 @@
 configure git with github
 
 git config --global user.name "name"
-
 git config --global user.email "email"
 
 verify it by simply running above commands
@@ -14,70 +13,107 @@ initialize git repo
 
 git init repo name
 
-to view all git repos in terminal 
+view all git repos in terminal
 
 ls -lart
 
-to veiw status 
+view status
 
 git status
 
-to add a file
+add a file
 
 git add file name (repo directory)
 
-to add multiple files or all untracked files 
+add multiple files or all untracked files
 
 git add -A
 
-to commit a file 
+commit a file
 
 git commit -m "message"
 
-to add a remote repo 
+add a remote repo
 
 git add remote origin repo url
 
-to push
+push
 
 git push remote repo url
 
-to create a file 
+create a file
 
 touch file name (in repo directory)
 
-to edit a file
+edit a file
 
 gedit file name
 
-to bring back files from staged environment
+bring back files from staged environment
 
 git checkout file name
 
-to bring back all files from staged environment
+bring back all files from staged environment
 
 git checkout -f
 
-to see commits
+see commits
 
 git log
 
-to filter git log output
+filter git log output
 
 git log -p -n (number of last commits you want to see)
 
-to view the diff from changed file (compares the file in staging area with unstaged area file)
+view the diff from changed file (compares the file in staging area with unstaged area file)
 
 git diff
 
 
-to compare your staging area with last commit 
+compare your staging area with last commit
 
 git diff --staged
 
-to remove a file from staging area
+remove a file from staging area
 
 git rm --cached file name
 
-video till 36:56
+short status
+
+git status -s 
+
+by default your main banch is a master branch
+
+Create branches on git
+
+git branch (branch name)
+
+view branches
+
+git branch
+
+switch to a branch
+
+git checkout branch name
+
+merge a branch
+
+git checkout (branch name)
+
+git merge (branch name that is to be merged)
+
+create and switch to the created branch
+
+git checkout -b (branch name)
+
+push in a master branch
+
+git push - u origin master
+
+
+
+Reference
+
+(https://www.youtube.com/watch?v=gwWKnnCMQ5c)
+
 
