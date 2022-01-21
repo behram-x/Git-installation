@@ -1,0 +1,83 @@
+configure git with github
+
+git config --global user.name "name"
+
+git config --global user.email "email"
+
+verify it by simply running above commands
+
+cloning a repo
+
+git clone repo url
+
+initialize git repo
+
+git init repo name
+
+to view all git repos in terminal 
+
+ls -lart
+
+to veiw status 
+
+git status
+
+to add a file
+
+git add file name (repo directory)
+
+to add multiple files or all untracked files 
+
+git add -A
+
+to commit a file 
+
+git commit -m "message"
+
+to add a remote repo 
+
+git add remote origin repo url
+
+to push
+
+git push remote repo url
+
+to create a file 
+
+touch file name (in repo directory)
+
+to edit a file
+
+gedit file name
+
+to bring back files from staged environment
+
+git checkout file name
+
+to bring back all files from staged environment
+
+git checkout -f
+
+to see commits
+
+git log
+
+to filter git log output
+
+git log -p -n (number of last commits you want to see)
+
+to view the diff from changed file (compares the file in staging area with unstaged area file)
+
+git diff
+
+
+to compare your staging area with last commit 
+
+git diff --staged
+
+to remove a file from staging area
+
+git rm --cached file name
+
+video till 36:56
+
